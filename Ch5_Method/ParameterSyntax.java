@@ -16,6 +16,7 @@ public class ParameterSyntax {
     public static int calculateSum(int num1, int num2)
     {
         Scanner sc=new Scanner(System.in);
+        sc.close();
         System.out.println("Enter the value of num1 and num2: ");
         num1 = sc.nextInt();
         num2 = sc.nextInt();
