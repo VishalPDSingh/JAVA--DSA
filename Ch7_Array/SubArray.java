@@ -11,7 +11,7 @@ public class SubArray {
                 int end = j;
                 for(int k=start; k<=end; k++)
                 {
-                    System.out.print("("+arr[k]+")");
+                    System.out.print(+arr[k]+ " ");
                 }
                 System.out.println();
             }
