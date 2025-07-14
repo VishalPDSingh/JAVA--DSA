@@ -6,6 +6,7 @@ public class BubbleSort {
         // number of turn
         for(int turn=0; turn<arr.length-1; turn++)
         {
+          //  System.out.println(arr[turn]);
             for(int j=0; j<arr.length-turn-1; j++)
             {
                 if(arr[j]>arr[j+1])
