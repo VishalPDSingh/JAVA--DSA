@@ -3,23 +3,22 @@ package Ch8_SortinAlgo;
 public class SelectionSort {
     public static void sort(int arr[])
     {
-        for(int i=0; i<arr.length-1; i++)
+        for(int turns=0; turns<arr.length-1; turns++)
         {
-            int min = i;
-            for(int j=i+1; j<arr.length; j++)
-            {
-                if(arr[min]>arr[j])
+            int max = turns;
+            
+                for(int i=turns+1; i<arr.length; i++)
                 {
-                    min = j;
+                    if(arr[max]<arr[i])
+                    {
+                        max = i;
+                    }
                 }
+                int temp = arr[turns];
+                arr[turns] = arr[max];
+                arr[max] = temp;
             }
-            //swap
-            int temp = arr[min];
-            arr[min] =arr[i];
-            arr[i] = temp;
-
         }
-    }
     public static void display(int arr[])
     {
         for(int i=0; i<arr.length; i++)
