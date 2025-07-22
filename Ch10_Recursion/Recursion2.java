@@ -1,22 +1,21 @@
 package Ch10_Recursion;
 
-public class IntoRecursion {
-
-    public static void display(int n)
+public class Recursion2 {
+    public static void reverse(int n)
     {
-        if(n<1)
+        if(n==1)
         {
+            System.out.println(n);
             return;
         }
         else
         {
             System.out.println(n);
-            display(n-1);
-            System.out.println(n);
+            reverse(n-1);
         }
     }
     public static void main(String[] args) {
-        int n=4;
-        display(n);
+        int x = 5;
+        reverse(x);
     }
 }
