@@ -1,4 +1,4 @@
-package Parctices;
+package Parctices1;
 
 import java.util.Scanner;
 //Input currency in rupees and output in USD.

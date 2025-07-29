@@ -1,4 +1,4 @@
-package Parctices;
+package Parctices1;
 
 public class NcRAndNpR {
     public static void NCRandNPR(int n)
