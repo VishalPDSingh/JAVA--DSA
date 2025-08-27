@@ -1,4 +1,4 @@
-package Ch5_Resursion;
+package Ch10_Resursion;
 
 public class Demo3 {
     public static int fun(int n)

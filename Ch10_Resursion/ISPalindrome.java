@@ -1,4 +1,4 @@
-package Ch5_Resursion;
+package Ch10_Resursion;
 
 public class ISPalindrome {
     public static boolean palindrome(String str, int start, int end)

@@ -1,4 +1,4 @@
-package Ch5_Resursion;
+package Ch10_Resursion;
 
 public class PrintNTo1 {
     public static void printNum(int n)

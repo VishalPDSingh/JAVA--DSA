@@ -1,4 +1,4 @@
-package Ch5_Resursion;
+package Ch10_Resursion;
 
 public class SumOfN {
     public static int naturalSum(int n)

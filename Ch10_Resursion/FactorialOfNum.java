@@ -1,4 +1,4 @@
-package Ch5_Resursion;
+package Ch10_Resursion;
 
 public class FactorialOfNum {
     public static int factorial(int n)
